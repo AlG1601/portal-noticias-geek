@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+}
+
 body {
-    margin-top: 0px;
+    margin: 0px;
 }
 
 a {
@@ -20,8 +24,7 @@ a {
 header {
     background-color: beige;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 30px;
 }
 
 ul li { 
@@ -30,12 +33,20 @@ ul li {
 
 article {
     background-color: rgb(230, 104, 104);
-    width: 500px;
+    width: 450px;
     border-radius: 10px;
     border-left: #333 solid 8px;
+    margin-left: 5px;
+    margin-bottom: 15px;
 }
 
 article img {
-    width: 500px;
+    width: 450px;
     border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
