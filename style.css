@@ -36,7 +36,7 @@ article {
     width: 450px;
     border-radius: 10px;
     border-left: #333 solid 8px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-bottom: 15px;
 }
 
@@ -48,5 +48,10 @@ article img {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%;
+}
+
+.invisible {
+    visibility: hidden;
 }
