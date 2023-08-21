@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     font-size: 24pt;
-    width: 1080px;
+    width: 95%;
     margin-bottom: 15px;
 }
 
@@ -80,7 +80,7 @@ article {
 }
 
 article img {
-    width: 850px;
+    width: 75%;
     border-radius: 10px;
 }
 
@@ -115,8 +115,7 @@ main {
 .arrow-left {
     width: 50px;
     height: 50px;
-    margin-top: 50vh;
-    margin-right: 33vh;
+    margin-top: 35%;
     background-image: url(images/arrow-left.png);
     transition: 0.6s;
 }
@@ -128,8 +127,7 @@ main {
 .arrow-right {
     width: 50px;
     height: 50px;
-    margin-top: 50vh;
-    margin-left: 33vh;
+    margin-top: 35%;
     background-image: url(images/arrow-right.png);
     transition: 0.6s;
 }
@@ -137,6 +135,7 @@ main {
 .arrow-right:hover {
     background-image: url(images/active-arrow-right.png);
 }
+
 
 .click {
     width: 50px;
